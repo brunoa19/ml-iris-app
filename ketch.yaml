@@ -1,0 +1,8 @@
+kubernetes:
+  processes:
+    web:
+      ports:
+        - name: iris-app
+          protocol: TCP
+          port: 8501
+          target_port: 8501
